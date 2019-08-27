@@ -1,0 +1,16 @@
+{
+  "name": "goatjs",
+  "version": "1.0.0",
+  "description": "My js version since I'm waiting for xcode to be downloaded for a looooooong time :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 100000 specs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chakram": "^1.5.0",
+    "mocha": "^6.2.0"
+  }
+}
