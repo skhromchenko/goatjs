@@ -1,4 +1,5 @@
 const consts = require('../consts');
+const common = require('../common');
 const chakram = require("chakram");
 const chai = require('chai');
 const expect = chai.expect;
@@ -13,7 +14,7 @@ before(async function () {
 
 describe("Deck of Cards API", function () {
   it("Create a method that requests a new dec", async function () {
-    newDec = await chakram.get(`${baseUrl}/api/deck/new/`);
+    newDec = await common.requestNewDeck();
   });
 
   it("From the response, assign the deck ID to a variable", async function () {
