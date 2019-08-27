@@ -1,7 +1,7 @@
 How to install
-Clone repo
-Run $ npm i
+1. Clone repo
+2. Run $ npm i
 
 How to run homework
-Run $ npm test
-Enjoy it ;) 
+1. Run $ npm test
+2. Enjoy it ;) 
